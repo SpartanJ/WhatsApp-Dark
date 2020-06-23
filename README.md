@@ -16,7 +16,7 @@ Install [Stylus](https://add0n.com/stylus.html) for either
 [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or 
 [Cascadea for Safari](https://cascadea.app/) and then:
 
-[Install the CSS](https://raw.githubusercontent.com/SpartanJ/whatsapp-dark/master/whatsapp-dark.css)
+[Install the usercss](https://raw.githubusercontent.com/SpartanJ/whatsapp-dark/master/whatsapp-dark.user.css)
 which supports automatic updates.
 
 ## Notes
