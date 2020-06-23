@@ -6,7 +6,7 @@ WhatsApp dark is a simple dark style for WhatsApp Web.
 
 ![Preview of WhatsApp Dark home](./images/screenshots/home.png)
 
-![Preview of WhatsApp Dark home](./images/screenshots/chat.png)
+![Preview of WhatsApp Dark chat](./images/screenshots/chat.png)
 
 ## Installation
 
