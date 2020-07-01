@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.0
+@version     1.0.1
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/SpartanJ/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.0 (2020-06-23) */
+/*! WhatsApp Dark v1.0.1 (2020-07-01) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2116,6 +2116,9 @@ html[dir="ltr"] ._1q11a._4tndQ {
     --compose-border: transparent;
     --startup-background: #323232;
     --intro-secondary: #aeaeae;
+    --search-container-background: #323232;
+    --compose-input-background: #202020;
+    --compose-input-border: #202020;
 }
 
 @media screen and (max-width: 1024px) {
