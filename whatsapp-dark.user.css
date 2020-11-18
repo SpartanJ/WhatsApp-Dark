@@ -2135,3 +2135,7 @@ html[dir=ltr] ._3AwwN
 }
 }
 }
+
+html[dir] ._3uMse {
+	background-color: inherit;
+}
