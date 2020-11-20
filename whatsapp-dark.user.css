@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.1
+@version     1.0.2
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/SpartanJ/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.1 (2020-07-01) */
+/*! WhatsApp Dark v1.0.2 (2020-11-10) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -722,7 +722,8 @@ header.pane-header {
 }
 
 .app-wrapper-web .app,
-html[dir] .app-wrapper-web .h70RQ{
+html[dir] .app-wrapper-web .h70RQ,
+html[dir] .app-wrapper-web ._36Q2N {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -1205,8 +1206,12 @@ html[dir] ._14oqx + ._14oqx .DcItJ
 }
 
 .two ._3kF8H,
-.two ._3A_Ft {
-    max-width: 440px;   
+.two ._3A_Ft,
+#side,
+.three ._2NwAr,
+._1-iDe._1xXdX,
+.two ._2NwAr {
+    max-width: 350px!important;
 }
 
 ._3cMIj {
@@ -1990,7 +1995,8 @@ span[data-icon$="status-dblcheck"] svg {
     color: #e3e3e3;   
 }
 
-._1-iDe._1xXdX {
+._1-iDe._1xXdX,
+.two ._2NwAr {
     flex-basis: 25%;
     max-width: 380px;
 }
@@ -2058,8 +2064,19 @@ html[dir] ._9WQEN {
     color: rgba(255,255,255,0.3);
 }
 
-html[dir="ltr"] ._1q11a._4tndQ {
+html[dir="ltr"] ._1q11a._4tndQ,
+html[dir=ltr] .kA6WR._1lcup,
+html[dir=ltr] .kA6WR.N7Dyd {
     background: transparent;
+}
+    
+._2v8yt {
+    color: inherit;
+}
+    
+html[dir] .XFAMv {
+    border-top: 0;
+    border-bottom: 0;
 }
 
 :root {
@@ -2071,6 +2088,7 @@ html[dir="ltr"] ._1q11a._4tndQ {
     --icon-lighter: rgba(255, 255, 255, 0.5);
     --primary-strong: #e4e4e4;
     --background-default: #323232;
+    --drawer-background: #2d2d2d;
     --panel-background-lighter: #323232;
     --incoming-background: #2d2d2d;
     --outgoing-background: #2d2d2d;
@@ -2119,6 +2137,10 @@ html[dir="ltr"] ._1q11a._4tndQ {
     --search-container-background: #323232;
     --compose-input-background: #202020;
     --compose-input-border: #202020;
+    --panel-input-background: #202020;
+    --search-input-background: #202020;
+    --unread-bar-background: inherit;
+    --unread-background: #323232;
 }
 
 @media screen and (max-width: 1024px) {
