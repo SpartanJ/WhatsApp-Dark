@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.9
+@version     1.0.10
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/SpartanJ/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.9 (2021-07-10) */
+/*! WhatsApp Dark v1.0.10 (2021-12-24) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2079,7 +2079,10 @@ html[dir] .XFAMv {
     border-bottom: 0;
 }
 
-:root {
+:root,
+._3Bc7H.KPJpj,
+.nBIOd._2T-Z0.tm2tP,
+._2mQtw ._1Yy4I {
     --font: #cecece;
     --secondary-light: rgba(255, 255, 255, 0.75);
     --incoming-background-deeper: #282828;
@@ -2146,6 +2149,12 @@ html[dir] .XFAMv {
     --button-alternative: #e3e3e3;
     --compose-panel-background-hover: #323232;
     --bubble-meta-icon: #aeaeae;
+    --chat-meta: #aeaeae;
+    --unread-timestamp: #d5d5d5;
+    --text-primary-strong: #fff;
+    --text-primary: rgba(255, 255,255, 0.87);
+    --text-title-color: #d5d5d5;
+    --text-section-title-color: rgba(255, 255,255, 0.87);
 }
 
 html[dir=ltr] ._3qSKL._39Lm1,
