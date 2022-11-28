@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.18
+@version     1.0.19
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @updateURL   https://userstyles.world/api/style/2489.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.18 (2022-09-17) */
+/*! WhatsApp Dark v1.0.19 (2022-11-25) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -1158,7 +1158,7 @@ html[dir] ._1aTxu svg
       .three ._2NwAr,
       ._1-iDe._1xXdX,
       .two ._2NwAr {
-            max-width: 350px!important;
+            max-width: 100%!important;
       }
 
       ._3cMIj {
@@ -2112,13 +2112,13 @@ html[dir] ._1aTxu svg
 
       @media screen and (min-width: 1301px) {
             .three ._2i3T7 {
-                      flex: 0 0 13.6%;
+                  flex: 0 0 13.6%;
             }
       }
 
       @media screen and (min-width: 1301px) {
             .three ._3sh5K {
-                      flex: 0 0 65%;
+                  flex: 0 0 65%;
             }
       }
 
@@ -2151,5 +2151,22 @@ html[dir] ._1aTxu svg
       }
       .gvkkofon {
             max-width: none;
+      }
+      ._1jJ70 {
+            position: relative!important;
+            top: 0!important;
+            display: flex!important;
+            width: 100%!important;
+            height: 100%!important;
+            overflow: hidden!important;
+            max-width: 100%!important;
+      }
+      @media screen and (min-width: 1300px) {
+            .three ._3RGKj,
+            .three ._1xFRo,
+            .two ._3RGKj {
+                  flex: 0 0 20%;
+                  max-width: 20%!important;
+            }
       }
 }
