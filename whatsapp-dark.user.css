@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.23
+@version     1.0.24
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @updateURL   https://userstyles.world/api/style/2489.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.23 (2023-08-09) */
+/*! WhatsApp Dark v1.0.24 (2023-08-17) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2091,6 +2091,11 @@ html[dir] ._1aTxu svg
             --reactions-tray-background: #323232;
             --reactions-picker-bg: #666;
             --reactions-panel-background-color: #323232;
+            --app-background: #323232;
+            --app-background-rgb: 50,50,50
+            --app-background-deeper: #202020;
+            --app-background-deeper-rgb: 32,32,32;
+            --drawer-background-deep: #202020;
       }
 
       [data-asset-chat-background-dark] {
