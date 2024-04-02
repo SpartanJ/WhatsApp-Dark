@@ -1,13 +1,12 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.24
+@version     1.0.27
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
-@updateURL   https://userstyles.world/api/style/2489.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.24 (2023-08-17) */
+/*! WhatsApp Dark v1.0.27 (2024-04-02) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -719,7 +718,8 @@ min-height: 300px !important;
 
       .app-wrapper-web .app,
       html[dir] .app-wrapper-web .h70RQ,
-      html[dir] .app-wrapper-web ._36Q2N {
+      html[dir] .app-wrapper-web ._36Q2N,
+      html[dir] .app-wrapper-web ._aigs {
             width: 100%;
             height: 100%;
             margin: 0 auto;
@@ -1142,12 +1142,14 @@ html[dir] ._1aTxu svg
             border-top: 1px solid #3e3e3e;
       }
 
-      .two .k1feT {
+      .two .k1feT,
+      .two ._aigw {
             -webkit-flex: 0 0 25%!important;
             flex: 0 0 25%!important;
       }
 
-      .two ._1Iexl {
+      .two ._1Iexl,
+      .two ._aigz {
             -webkit-flex: 0 0 75%!important;
             flex: 0 0 75%!important;
       }
@@ -2084,7 +2086,7 @@ html[dir] ._1aTxu svg
             --border-stronger: transparent;
             --conversation-panel-border: transparent;
             --conversation-header-border: transparent;
-            --modal-backdrop: : #323232CC;
+            --modal-backdrop: #323232CC;
             --poll-modal-background-color: #323232;
             --background-document-with-captions: #323232;
             --media-editor-document-caption-input-background: #202020;
@@ -2096,6 +2098,10 @@ html[dir] ._1aTxu svg
             --app-background-deeper: #202020;
             --app-background-deeper-rgb: 32,32,32;
             --drawer-background-deep: #202020;
+            --background-lighter: #333;
+            --button-secondary-background: #444;
+            --button-secondary-border: #333;
+            --block-quote-text: #d5d5d5;
       }
 
       [data-asset-chat-background-dark] {
