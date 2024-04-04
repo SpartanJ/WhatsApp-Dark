@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.27
+@version     1.0.28
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.27 (2024-04-02) */
+/*! WhatsApp Dark v1.0.28 (2024-04-04) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -28,6 +28,9 @@
             background-image: -webkit-linear-gradient(top, #5b5b5b, #5b5b5b) !important;
             font-family: 'Roboto Light', sans-serif !important;
             color: #ffffff;
+      }
+      body, #app {
+            font-family: 'Roboto Light', sans-serif !important;
       }
       .pane-chat-footer {
             background-color: #323232 !important;
@@ -725,6 +728,7 @@ min-height: 300px !important;
             margin: 0 auto;
             top: 0px;
             border-radius: 3px;
+            max-width: 100%;
       }
 
       .msg-unread {
@@ -1144,14 +1148,14 @@ html[dir] ._1aTxu svg
 
       .two .k1feT,
       .two ._aigw {
-            -webkit-flex: 0 0 25%!important;
-            flex: 0 0 25%!important;
+            -webkit-flex: 0 0 20%!important;
+            flex: 0 0 20%!important;
       }
 
       .two ._1Iexl,
       .two ._aigz {
-            -webkit-flex: 0 0 75%!important;
-            flex: 0 0 75%!important;
+            -webkit-flex: 0 0 80%!important;
+            flex: 0 0 80%!important;
       }
 
       .two ._3kF8H,
@@ -2102,6 +2106,8 @@ html[dir] ._1aTxu svg
             --button-secondary-background: #444;
             --button-secondary-border: #333;
             --block-quote-text: #d5d5d5;
+            --outgoing-background-rgb: #444;
+            --incoming-background-rgb: #444;
       }
 
       [data-asset-chat-background-dark] {
