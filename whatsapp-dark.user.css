@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name        WhatsApp Dark
 @namespace   SpartanJ
-@version     1.0.32
+@version     1.0.33
 @homepageURL https://github.com/SpartanJ/WhatsApp-Dark
 @license     CC0 - Public Domain
 @author      SpartanJ
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.32 (2024-05-23) */
+/*! WhatsApp Dark v1.0.33 (2024-05-24) */
 /*! Repository: https://github.com/SpartanJ/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2141,10 +2141,14 @@ html[dir] ._1aTxu svg
       }
 
       #side > div.x1ky8ojb.x78zum5.x1q0g3np.x1a02dak.x2lah0s.x3pnbk8.xfex06f.xeuugli.x2lwn1j.x1nn3v0j.x1ykpatu.x1swvt13.x1pi30zi {
-        padding-top: 6px;
+        padding-top: 4px;
         padding-bottom: 4px;
       }
 
+      header.xn6708d.x1ye3gou {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 
       @media screen and (min-width: 1301px) {
             .three ._2DPZK {
